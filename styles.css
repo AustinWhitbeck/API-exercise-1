@@ -52,5 +52,20 @@ a {
 .post-image {
     margin: 0 0 20px;
     border-radius: 5px;
+    border-color: #bee3db;
+    border-style: solid;
 }
 
+
+
+/*  Media Query */
+
+
+@media only screen and (min-width: 667px) {
+    .reddit-postings {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
